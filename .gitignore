@@ -2,6 +2,9 @@
 # Compiled class file
 *.class
 
+#IDEA
+.idea/*
+
 # Log file
 *.log
 
@@ -31,6 +34,7 @@ __pycache__/
 
 # C extensions
 *.so
+
 
 # Distribution / packaging
 .Python
@@ -81,8 +85,7 @@ coverage.xml
 *.mo
 *.pot
 
-# Django stuff:
-*.log
+# Django stuff:*.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
